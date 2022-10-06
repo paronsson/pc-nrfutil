@@ -15,7 +15,7 @@ jobs:
         py38:
           python_version: "3.8"
     pool:
-      vmImage: "ubuntu-18.04"
+      vmImage: "arm32v7/python:3.7-slim-buster"
     steps:
       - task: UsePythonVersion@0
         inputs:
